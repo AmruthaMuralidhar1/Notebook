@@ -19,7 +19,7 @@ This project presents a **Dual Driver Drowsiness Detection and Alert System** bu
 
 ---
 
-# 🏗 System Architecture
+# System Architecture
 
 ```
                           Driver
@@ -122,7 +122,7 @@ Supported Protocols
 
 ---
 
-# 💻 Software Requirements
+# Software Requirements
 
 ## Operating System
 
@@ -150,7 +150,7 @@ Supported Protocols
 
 ---
 
-# 👁 Method 1 – Camera-Based Detection (OpenCV)
+# Method 1 – Camera-Based Detection (OpenCV)
 
 The camera continuously monitors the driver's face and extracts facial landmarks using MediaPipe or OpenCV. The Eye Aspect Ratio (EAR) is calculated from the detected eye landmarks to determine whether the driver's eyes are open or closed.
 
@@ -227,7 +227,7 @@ Send Notification
 
 ---
 
-# 👓 Method 2 – Smart Wearable Glasses
+# Method 2 – Smart Wearable Glasses
 
 The wearable glasses use infrared sensors to monitor eye movements without requiring a camera. An IR LED emits infrared light toward the eye, while the IR receiver measures the reflected light intensity. The reflection changes depending on whether the eye is open or closed.
 
@@ -372,7 +372,7 @@ This redundancy ensures continuous monitoring even if one subsystem fails.
 
 ---
 
-# 📡 Wi-Fi Communication
+# Wi-Fi Communication
 
 The ESP32 communicates wirelessly with the Raspberry Pi using Wi-Fi.
 
