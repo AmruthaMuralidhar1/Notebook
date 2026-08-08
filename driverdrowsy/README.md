@@ -152,6 +152,8 @@ Supported Protocols
 
 # Method 1 – Camera-Based Detection (OpenCV)
 
+![Camera-Based Circuit Diagram](./camera.jpg)
+
 The camera continuously monitors the driver's face and extracts facial landmarks using MediaPipe or OpenCV. The Eye Aspect Ratio (EAR) is calculated from the detected eye landmarks to determine whether the driver's eyes are open or closed.
 
 ### Workflow
@@ -228,6 +230,8 @@ Send Notification
 ---
 
 # Method 2 – Smart Wearable Glasses
+
+![Sensor Spectacles Circuit Diagram](./driverdrowsy/ir-sensor.png)
 
 The wearable glasses use infrared sensors to monitor eye movements without requiring a camera. An IR LED emits infrared light toward the eye, while the IR receiver measures the reflected light intensity. The reflection changes depending on whether the eye is open or closed.
 
