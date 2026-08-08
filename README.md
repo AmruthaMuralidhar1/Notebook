@@ -1,8 +1,7 @@
 ## Documentation
 
 - [Driver Drowsiness README](./driverdrowsy/README.md)
-       Driver fatigue is one of the leading causes of road accidents worldwide. Long driving hours, lack of sleep, and monotonous road conditions can significantly reduce a driver's alertness, increasing the risk of collisions. Traditional safety systems often react only after an accident has begun, whereas an intelligent driver monitoring system can help prevent accidents before they occur.
-
+       Driver fatigue is one of the leading causes of road accidents worldwide. Long driving hours, lack of sleep, and monotonous road conditions can significantly reduce a driver's alertness, increasing the risk of collisions. Traditional safety systems often react only after an accident has begun, whereas an intelligent driver monitoring system can help prevent accidents before they occur. 
 This project presents a Dual Driver Drowsiness Detection and Alert System built using a Raspberry Pi 5, OpenCV, Computer Vision, and Smart Wearable Glasses equipped with Infrared (IR) Eye Sensors.
 
 
