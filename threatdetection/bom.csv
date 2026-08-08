@@ -1,0 +1,17 @@
+Sl. No.,Component,Specification,Qty,Unit Price (₹),Total (₹)
+1,Arduino UNO R4 WiFi,"32-bit RA4M1, Wi-Fi + Bluetooth",1,8500,8500
+2,IR LED,"940 nm High Power",2,50,100
+3,IR Sensor,"High Sensitivity",2,150,300
+5,18650 Li-ion Battery,"3400 mAh",1,600,600
+6,TP4056 Charging Module with Protection,USB-C,1,200,200
+7,DC-DC Buck Converter,3.3V/5V Adjustable,1,250,250
+8,Active Piezo Buzzer,5V,1,150,150
+9,High Brightness LEDs,"Red, Yellow, Green",3,30,90
+10,Mini Speaker,"3W, 4Ω",1,500,500
+11,Breadboard,Full Size,1,350,350
+12,Jumper Wire Kit,"Premium Male-Male, Male-Female",1,300,300
+13,Resistor Kit,Assorted,1,200,200
+14,PCB, Headers & Connectors,"JST, Berg Strips, Terminals",1,600,600
+15,Mounting Hardware,"Screws, Nuts, Standoffs, Heat Shrink",1,500,500
+16,USB Cable & Misc. Wiring,High Quality,1,500,500
+,,Total,,,13140
