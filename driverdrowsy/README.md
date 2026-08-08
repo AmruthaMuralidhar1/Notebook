@@ -231,7 +231,7 @@ Send Notification
 
 # Method 2 – Smart Wearable Glasses
 
-![Sensor Spectacles Circuit Diagram](./driverdrowsy/ir-sensor.png)
+![Sensor Spectacles Circuit Diagram](./ir-sensor.png)
 
 The wearable glasses use infrared sensors to monitor eye movements without requiring a camera. An IR LED emits infrared light toward the eye, while the IR receiver measures the reflected light intensity. The reflection changes depending on whether the eye is open or closed.
 
