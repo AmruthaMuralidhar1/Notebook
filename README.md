@@ -1,5 +1,8 @@
 ## Documentation
 
+- [Ultrasound based people counter and auto lighting System README](./ultrasound/readme.md)
+It is a People Counter using Arduino UNO and an HC-SR04 Ultrasonic Sensor. Whenever a person passes in front of the sensor, the Arduino detects the movement, increases the count, and turns on an LED as an indication. Could use this counting people entering a house or room or can also be used in bus or vehicles. it displays the number of count on your device. Because this sensing is using ultrasound sensor by connecting an Led we can even make automatic light system which turns on when there are people and turns off when there are none
+
 - [Weather Monitoring System README](./weather/readme.md)
   It is a weather detection/monitoring App (Just place the system somewhear outside and can motinor it realtime form your mobile phone anywhere, do not need to be at the system to check stats), has a lot of sensors for complete weather report, DHT11, BMP280, LDR, and Rain Sensor to track temperature, humidity, pressure, light intensity, and rainfall levels.
 
