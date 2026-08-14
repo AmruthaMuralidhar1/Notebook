@@ -19,25 +19,31 @@ Honestly, I have purchased aurdino board and other iot kits so I am trying to pl
 ![Circuit Diagram](./circuitdia.png)
 ![Demo Diagram](./weather.png)
 
+# Bill of Materials
+
+The complete BOM is also available here:
+
 [View BOM.csv](./bom.csv)
-Sl. No.,Component,Specification,Qty,Unit Price (₹),Total (₹),Type
-1,NodeMCU ESP8266 Development Board,ESP8266 Wi-Fi Development Board,1,350,350,Hardware
-2,NodeMCU Breakout Board,ESP8266 NodeMCU Expansion Board,1,150,150,Hardware
-3,DHT11 Sensor,Temperature and Humidity Sensor,1,100,100,Sensor
-4,BMP280 Sensor,Barometric Pressure Sensor,1,150,150,Sensor
-5,LDR Sensor Module,Light Intensity Sensor,1,50,50,Sensor
-6,Rain Sensor Module,Rain Detection Sensor with Module,1,80,80,Sensor
-7,Breadboard,Full Size Solderless Breadboard,1,150,150,Hardware
-8,Jumper Wires Male-Male,DuPont Wires,1,100,100,Wiring
-9,Jumper Wires Male-Female,DuPont Wires,1,100,100,Wiring
-10,Jumper Wires Female-Female,DuPont Wires,1,100,100,Wiring
-11,Resistor Kit,Assorted Resistors,1,100,100,Component
-12,USB Cable,Micro USB Cable for NodeMCU,1,100,100,Cable
-13,5V Power Supply,USB 5V Power Adapter,1,200,200,Power
-14,Terminal Blocks and Connectors,Basic Screw Terminals and Connectors,1,100,100,Hardware
-15,Arduino IoT Cloud,Cloud Dashboard and Mobile App,1,0,0,Software
-16,USB Cable and Misc Wiring,Extra Wires and Connections,1,100,100,Miscellaneous
-,,,,Total,1880,
+
+| Sl. No. | Component | Specification | Qty | Unit Price (₹) | Total (₹) | Type |
+|---:|---|---|---:|---:|---:|---|
+| 1 | NodeMCU ESP8266 Development Board | ESP8266 Wi-Fi Development Board | 1 | 350 | 350 | Hardware |
+| 2 | NodeMCU Breakout Board | ESP8266 NodeMCU Expansion Board | 1 | 150 | 150 | Hardware |
+| 3 | DHT11 Sensor | Temperature and Humidity Sensor | 1 | 100 | 100 | Sensor |
+| 4 | BMP280 Sensor | Barometric Pressure Sensor | 1 | 150 | 150 | Sensor |
+| 5 | LDR Sensor Module | Light Intensity Sensor | 1 | 50 | 50 | Sensor |
+| 6 | Rain Sensor Module | Rain Detection Sensor with Module | 1 | 80 | 80 | Sensor |
+| 7 | Breadboard | Full Size Solderless Breadboard | 1 | 150 | 150 | Hardware |
+| 8 | Jumper Wires Male-Male | DuPont Wires | 1 | 100 | 100 | Wiring |
+| 9 | Jumper Wires Male-Female | DuPont Wires | 1 | 100 | 100 | Wiring |
+| 10 | Jumper Wires Female-Female | DuPont Wires | 1 | 100 | 100 | Wiring |
+| 11 | Resistor Kit | Assorted Resistors | 1 | 100 | 100 | Component |
+| 12 | USB Cable | Micro USB Cable for NodeMCU | 1 | 100 | 100 | Cable |
+| 13 | 5V Power Supply | USB 5V Power Adapter | 1 | 200 | 200 | Power |
+| 14 | Terminal Blocks and Connectors | Basic Screw Terminals and Connectors | 1 | 100 | 100 | Hardware |
+| 15 | Arduino IoT Cloud | Cloud Dashboard and Mobile App | 1 | 0 | 0 | Software |
+| 16 | USB Cable and Misc Wiring | Extra Wires and Connections | 1 | 100 | 100 | Miscellaneous |
+| | | | | **Total** | **₹1,880** | |
 
 # Connecting it to Arduino IoT Cloud
 One of the main reasons I used Arduino IoT Cloud is because I didn't want to make my own mobile app and backend just for this project. Arduino already has an app for this and quite easy to use altho connecting takes time and you cant resent the password if you forget it then the board sort of becomes unusable.
