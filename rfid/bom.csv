@@ -1,0 +1,20 @@
+Sl. No.,Component,Specification,Qty,Unit Price (₹),Total (₹)
+1,Raspberry Pi 5,8 GB RAM Wi-Fi,1,24000,24000
+2,RFID Reader,MFRC522 13.56 MHz RFID Module,2,150,300
+3,RFID Cards,13.56 MHz RFID Cards,10,40,400
+4,RFID Key Tags,13.56 MHz RFID Key Tags,5,30,150
+5,Electronic Door Lock,12V Solenoid Lock,1,1000,1000
+6,12V Power Supply,12V 5A Adapter,1,700,700
+7,5 inch Touchscreen Display,HDMI Capacitive Touch Display,1,3500,3500
+8,Camera Module,Raspberry Pi Camera Module,1,2500,2500
+9,Buzzer,Active 5V Buzzer,1,50,50
+10,LEDs,Red and Green High Brightness LEDs,4,10,40
+11,Resistor Kit,Assorted Resistors,1,150,150
+12,Breadboard,Full Size Solderless Breadboard,1,250,250
+13,Jumper Wire Kit,Male-Male Male-Female Female-Female,1,350,350
+14,Relay Module,5V Relay Module,1,150,150
+15,MicroSD Card,64GB Class 10,1,700,700
+16,Enclosure,Electronics Project Enclosure,1,1000,1000
+17,Mounting Hardware,Screws Nuts Standoffs and Brackets,1,300,300
+18,USB Cable and Misc Wiring,Power and Data Cables,1,300,300
+,,,,Total,35690
