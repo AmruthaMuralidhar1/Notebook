@@ -66,7 +66,31 @@ Honestly, the better system is the smart glasses one because it works very well 
 ![Glasses at night](./night.png)
 ![OpenCV face landmark used Diagram](./landmark.png)
 
-![BOM](./bom.csv)
+[BOM](./bom.csv)
+| Sl. No. | Component | Specification | Qty | Unit Price (₹) | Total (₹) |
+|---:|---|---|---:|---:|---:|
+| 1 | Raspberry Pi 5 (Wi-Fi) | 8 GB RAM | 1 | 24,000 | 24,000 |
+| 2 | Raspberry Pi Camera Module 3 | 12 MP Sony IMX708, Autofocus | 1 | 4,000 | 4,000 |
+| 3 | microSD Card | Class 10 / UHS-I | 1 | 900 | 900 |
+| 4 | Raspberry Pi 5 Power Adapter | 5V 5A USB-C | 1 | 1,500 | 1,500 |
+| 5 | ESP32 Development Board | Dual-Core Wi-Fi + Bluetooth | 1 | 900 | 900 |
+| 6 | IR LED | 940 nm High Power | 2 | 50 | 100 |
+| 7 | IR Sensor | High Sensitivity | 2 | 150 | 300 |
+| 8 | Smart Glasses Frame | Lightweight Wearable Frame | 1 | 800 | 800 |
+| 9 | 18650 Li-ion Battery | 3400 mAh | 1 | 600 | 600 |
+| 10 | TP4056 Charging Module with Protection | USB-C | 1 | 200 | 200 |
+| 11 | DC-DC Buck Converter | 3.3V/5V Adjustable | 1 | 250 | 250 |
+| 12 | Active Piezo Buzzer | 5V | 1 | 150 | 150 |
+| 13 | High Brightness LEDs | Red, Yellow, Green | 3 | 30 | 90 |
+| 14 | Mini Speaker | 3W 4Ω | 1 | 500 | 500 |
+| 15 | Breadboard | Full Size | 1 | 350 | 350 |
+| 16 | Jumper Wire Kit | Premium Male-Male, Male-Female | 1 | 300 | 300 |
+| 17 | Resistor Kit | Assorted | 1 | 200 | 200 |
+| 18 | PCB, Headers & Connectors | JST, Berg Strips, Terminals | 1 | 600 | 600 |
+| 19 | Acrylic Enclosure | Raspberry Pi Housing | 1 | 1,200 | 1,200 |
+| 20 | Mounting Hardware | Screws, Nuts, Standoffs, Heat Shrink | 1 | 500 | 500 |
+| 21 | USB-C Cable & Misc. Wiring | High Quality | 1 | 500 | 500 |
+| | | | | **Total** | **₹37,940** |
 
 # Report like Academic Description Below
 ---
