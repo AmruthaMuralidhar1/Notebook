@@ -66,6 +66,7 @@ Honestly, the better system is the smart glasses one because it works very well 
 ![Glasses at night](./night.png)
 ![OpenCV face landmark used Diagram](./landmark.png)
 
+![BOM](./bom.csv)
 
 # Report like Academic Description Below
 ---
