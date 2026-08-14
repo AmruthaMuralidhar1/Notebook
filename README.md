@@ -1,5 +1,9 @@
 ## Documentation
 
+- [Weather Monitoring System README](./weather/README.md)
+  It is a weather detection/monitoring App (Just place the system somewhear outside and can motinor it realtime form your mobile phone anywhere, do not need to be at the system to check stats), has a lot of sensors for complete weather report, DHT11, BMP280, LDR, and Rain Sensor to track temperature, humidity, pressure, light intensity, and rainfall levels.
+
+
 - [Driver Drowsiness README](./driverdrowsy/README.md)
        Driver fatigue is one of the leading causes of road accidents worldwide. Long driving hours, lack of sleep, and monotonous road conditions can significantly reduce a driver's alertness, increasing the risk of collisions. Traditional safety systems often react only after an accident has begun, whereas an intelligent driver monitoring system can help prevent accidents before they occur. 
 This project presents a Dual Driver Drowsiness Detection and Alert System built using a Raspberry Pi 5, OpenCV, Computer Vision, and Smart Wearable Glasses equipped with Infrared (IR) Eye Sensors.
