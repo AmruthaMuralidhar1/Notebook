@@ -1,6 +1,6 @@
 ## Documentation
 
-- [Weather Monitoring System README](./weather/README.md)
+- [Weather Monitoring System README](./weather/readme.md)
   It is a weather detection/monitoring App (Just place the system somewhear outside and can motinor it realtime form your mobile phone anywhere, do not need to be at the system to check stats), has a lot of sensors for complete weather report, DHT11, BMP280, LDR, and Rain Sensor to track temperature, humidity, pressure, light intensity, and rainfall levels.
 
 
