@@ -28,6 +28,9 @@ The second one uses smart glasses with IR sensors to detect the driver's blinkin
 
 Both systems can be used **separately** or they can also be used together.
 
+![Sensor Spectacles Circuit Diagram](./ir-sensor.png)
+
+
 ---
 
 # Why did I make this?
@@ -58,13 +61,19 @@ So I ended up making two approaches:
 
 Both can be used together too, although it would be kind of redundant since both are trying to detect the same thing. Depending on the driver and situation, either one should be enough.
 
-I think this could be especially useful for **long distance interstate bus and truck drivers** who drive for many hours at night, usually on highways and at high speeds.
+I think this could be quite useful for long distance interstate bus and truck drivers who drive for many hours, usually on highways and at high speeds.
+
+Honestly, the better system is the smart glasses one because it works very well at night aswell, environment light conditions did not have any impact on the device when I tested this. While the OpenCV system did not work accurately under dark/very low light conditions.
+
+![Glasses in Day](./day.png)
+![Glasses at night](./night.png)
+![OpenCV face landmark used Diagram](./landmark.png)
 
 
-#Report like Academic Description Below
+# Report like Academic Description Below
 ---
 
-# Objectives
+Objectives
 
 - Detect driver drowsiness in real time.
 - Prevent accidents caused by driver fatigue.
@@ -76,8 +85,7 @@ I think this could be especially useful for **long distance interstate bus and t
 - Build a scalable platform for future AI-assisted transportation systems.
 
 ---
-
-# System Architecture
+System Architecture
 
 ```
                           Driver
@@ -116,9 +124,9 @@ I think this could be especially useful for **long distance interstate bus and t
 
 ---
 
-# Hardware Components
+Hardware Components
 
-## Main Processing Unit
+Main Processing Unit
 
 - Raspberry Pi 5 (8 GB Recommended)
 - 32 GB MicroSD Card
@@ -126,7 +134,7 @@ I think this could be especially useful for **long distance interstate bus and t
 
 ---
 
-## Vision-Based Detection
+Vision-Based Detection
 
 - Raspberry Pi Camera Module v3 or USB Webcam
 
@@ -141,7 +149,7 @@ Functions:
 
 ---
 
-## Wearable Detection
+Wearable Detection
 
 - Smart Glasses Frame
 - IR LED
@@ -159,14 +167,14 @@ Functions:
 
 ---
 
-## Alert System
+Alert System
 - Piezo Buzzer
 - High Brightness LED
 - Speaker (Optional)
   
 ---
 
-## Communication
+Communication
 
 - ESP32 Wi-Fi
 - Raspberry Pi Wi-Fi
@@ -180,17 +188,17 @@ Supported Protocols
 
 ---
 
-# Software Requirements
+Software Requirements
 
-## Operating System
+Operating System
 
 - Raspberry Pi OS
 
-## Programming Language
+Programming Language
 
 - Python 3
 
-## Libraries
+Libraries
 
 - OpenCV
 - MediaPipe
@@ -199,7 +207,7 @@ Supported Protocols
 - Flask
 - MQTT (Paho MQTT)
 
-## Development Tools
+Development Tools
 
 - VS Code
 - Thonny IDE
@@ -208,13 +216,13 @@ Supported Protocols
 
 ---
 
-# Method 1 – Camera-Based Detection (OpenCV)
+Method 1 – Camera-Based Detection (OpenCV)
 
 ![Camera-Based Circuit Diagram](./camera.jpg)
 
 The camera continuously monitors the driver's face and extracts facial landmarks using MediaPipe or OpenCV. The Eye Aspect Ratio (EAR) is calculated from the detected eye landmarks to determine whether the driver's eyes are open or closed.
 
-### Workflow
+Workflow
 
 ```
 Camera
@@ -276,7 +284,7 @@ Store Event Log
 Send Notification
 ```
 
-### Parameters Monitored
+Parameters Monitored
 
 - Eye Aspect Ratio (EAR)
 - Blink Rate
@@ -287,15 +295,14 @@ Send Notification
 
 ---
 
-# Method 2 – Smart Wearable Glasses
+Method 2 – Smart Wearable Glasses
 
 ![Sensor Spectacles Circuit Diagram](./ir-sensor.png)
 
 The wearable glasses use infrared sensors to monitor eye movements without requiring a camera. An IR LED emits infrared light toward the eye, while the IR receiver measures the reflected light intensity. The reflection changes depending on whether the eye is open or closed.
 
-The ESP32 processes these readings and transmits the blink information wirelessly to the Raspberry Pi over Wi-Fi.
 
-### Workflow
+Workflow
 
 ```
 IR LED
@@ -345,7 +352,7 @@ Activate Alarm
 Store Event Log
 ```
 
-### Parameters Monitored
+Parameters Monitored
 
 - Blink Duration
 - Eye Closure Time
@@ -354,13 +361,13 @@ Store Event Log
 
 ---
 
-# Decision Making Algorithm
+Decision Making Algorithm
 
 The Raspberry Pi acts as the central decision-making unit.
 
 Both detection systems operate independently and can also work together for improved reliability.
 
-### Camera Data
+Camera Data
 
 - Face Detected
 - Eyes Open
@@ -369,7 +376,7 @@ Both detection systems operate independently and can also work together for impr
 - Head Position
 - Yawning
 
-### Smart Glasses Data
+Smart Glasses Data
 
 - Blink Duration
 - Eye Closure Time
@@ -432,94 +439,6 @@ Camera Detection Only
 
 This redundancy ensures continuous monitoring even if one subsystem fails.
 
----
-
-# Wi-Fi Communication
-
-The ESP32 communicates wirelessly with the Raspberry Pi using Wi-Fi.
-
-Possible communication methods include:
-
-### MQTT
-
-```
-ESP32
-
-↓
-
-Publish Sensor Data
-
-↓
-
-MQTT Broker
-
-↓
-
-Raspberry Pi Subscriber
-
-↓
-
-Process Data
-```
-
-Advantages
-
-- Lightweight
-- Fast
-- Reliable
-- Suitable for IoT Applications
-
----
-
-### HTTP REST API
-
-```
-ESP32
-
-↓
-
-HTTP POST
-
-↓
-
-Flask Server
-
-↓
-
-Raspberry Pi
-```
-
-Suitable for smaller projects and simple communication.
-
----
-
-# Alert System
-
-The system generates alerts based on the severity of driver fatigue.
-
-### Level 1
-
-- Yellow LED
-- Soft Warning Tone
-
-### Level 2
-
-- Flashing LED
-- Loud Buzzer
-
-### Level 3
-
-- Voice Alert
-
-Example:
-
-```
-Warning!
-
-Driver fatigue detected.
-
-Please stop the vehicle and take a break.
-```
 
 Future enhancements include:
 
