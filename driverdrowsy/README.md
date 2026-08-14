@@ -26,10 +26,7 @@ The first one uses a camera to look at the driver's face and eyes using computer
 
 The second one uses smart glasses with IR sensors to detect the driver's blinking and how long their eyes stay closed.
 
-Both systems can be used **separately** or they can also be used together.
-
-![Sensor Spectacles Circuit Diagram](./ir-sensor.png)
-
+Both systems can be used separately or they can also be used together tho this would de redundant.
 
 ---
 
