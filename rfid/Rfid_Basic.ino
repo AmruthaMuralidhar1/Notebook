@@ -1,9 +1,3 @@
-/*
- @ YouTube | Tech at Home
- @ RFID Basics
- @ Tutorial video link: https://youtu.be/8YCoigIOOxU
-*/
-
 #include <SPI.h>
 #include <MFRC522.h>
  
@@ -53,7 +47,7 @@ void loop()
   Serial.print("Message : ");
   content.toUpperCase();
   
-  if (content.substring(1) == "EB 32 FF 03") //Add your UID
+  if (content.substring(1) == "EB 32 FF 03")
   {
     Serial.println("Access Granted");
     Serial.println();
