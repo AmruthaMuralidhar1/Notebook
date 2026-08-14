@@ -1,9 +1,67 @@
 # Dual Driver Drowsiness Detection and Alert System
+# What is this?
 
-Driver fatigue is one of the leading causes of road accidents worldwide. Long driving hours, lack of sleep, and monotonous road conditions can significantly reduce a driver's alertness, increasing the risk of collisions. Traditional safety systems often react only after an accident has begun, whereas an intelligent driver monitoring system can help prevent accidents before they occur.
+Sleepy driving is one of the major reasons for road accidents around the world. When a driver gets tired or starts falling asleep, their reaction time becomes slower and they can easily lose control of the vehicle. This is especially dangerous for bus and truck drivers who drive for many hours at night and on highways.
 
-This project presents a **Dual Driver Drowsiness Detection and Alert System** built using a **Raspberry Pi 5**, **OpenCV**, **Computer Vision**, and **Smart Wearable Glasses** equipped with **Infrared (IR) Eye Sensors**. 
+According to this research paper: https://doi.org/10.26719/emhj.22.055
 
+Most normal safety systems like airbags are mainly useful **after an accident has already started or happened**. My idea with this project was to try and detect the problem **before the accident happens** by checking if the driver is getting sleepy.
+
+This project is a **Dual Driver Drowsiness Detection and Alert System** made using:
+
+- Raspberry Pi 5
+- Raspberry Pi Camera Module 3
+- OpenCV
+- MediaPipe
+- Computer Vision
+- ESP32
+- IR Eye Sensors
+- Smart Wearable Glasses
+- Buzzer and LEDs
+- Wi-Fi
+
+The project has **two different ways of detecting drowsiness**.
+
+The first one uses a camera to look at the driver's face and eyes using computer vision.
+
+The second one uses smart glasses with IR sensors to detect the driver's blinking and how long their eyes stay closed.
+
+Both systems can be used **separately** or they can also be used together.
+
+---
+
+# Why did I make this?
+
+I originally started this project because I was trying to learn how to make a **face recognition app**.
+
+While I was working on that, I thought why not try making something that actually has some real world use. So I started looking into **drowsiness detection**.
+
+At first I was just detecting drowsiness in front of my laptop using the webcam. It worked, but obviously there isn't much use in knowing that someone sitting in front of a laptop is sleepy.
+
+So I decided to turn it into an actual **IoT project** using a Raspberry Pi and a camera.
+
+The camera based system is pretty cool because it is **non intrusive and doesn't require the driver to wear anything**. The camera can just look at the driver and check their eyes.
+
+But then I thought about the cost and complexity.
+
+For this use case, the system doesn't necessarily need to be 100% accurate all the time. A few false alarms are okay if the main purpose is to warn the driver before they fall asleep.
+
+So I thought of making a much cheaper approach using **wearable glasses with IR sensors**.
+
+The glasses basically check the eyes and detect blinking. If the driver's eyes stay closed for longer than a certain threshold, the system assumes that the driver might be getting drowsy and gives an alert.
+
+So I ended up making two approaches:
+
+**1. Camera + Computer Vision**
+
+**2. Smart Glasses + IR Sensors**
+
+Both can be used together too, although it would be kind of redundant since both are trying to detect the same thing. Depending on the driver and situation, either one should be enough.
+
+I think this could be especially useful for **long distance interstate bus and truck drivers** who drive for many hours at night, usually on highways and at high speeds.
+
+
+#Report like Academic Description Below
 ---
 
 # Objectives
