@@ -7,7 +7,7 @@ According to this research paper: https://doi.org/10.26719/emhj.22.055
 
 Most normal safety systems like airbags are mainly useful **after an accident has already started or happened**. My idea with this project was to try and detect the problem **before the accident happens** by checking if the driver is getting sleepy.
 
-This project is a **Dual Driver Drowsiness Detection and Alert System** made using:
+This project is a made using:
 
 - Raspberry Pi 5
 - Raspberry Pi Camera Module 3
@@ -20,7 +20,7 @@ This project is a **Dual Driver Drowsiness Detection and Alert System** made usi
 - Buzzer and LEDs
 - Wi-Fi
 
-The project has **two different ways of detecting drowsiness**.
+The project has two different ways of detecting drowsiness.
 
 The first one uses a camera to look at the driver's face and eyes using computer vision.
 
@@ -52,9 +52,9 @@ The glasses basically check the eyes and detect blinking. If the driver's eyes s
 
 So I ended up making two approaches:
 
-**1. Camera + Computer Vision**
+1. Camera + Computer Vision
 
-**2. Smart Glasses + IR Sensors**
+2. Smart Glasses + IR Sensors
 
 Both can be used together too, although it would be kind of redundant since both are trying to detect the same thing. Depending on the driver and situation, either one should be enough.
 
@@ -65,6 +65,7 @@ Honestly, the better system is the smart glasses one because it works very well 
 ![Glasses in Day](./day.png)
 ![Glasses at night](./night.png)
 ![OpenCV face landmark used Diagram](./landmark.png)
+![Camera Based approach setup n connections](./camera.png)
 
 [BOM](./bom.csv)
 | Sl. No. | Component | Specification | Qty | Unit Price (₹) | Total (₹) |
