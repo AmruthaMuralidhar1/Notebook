@@ -50,6 +50,7 @@ I also wanted to use a Microcontroller because it gives me more options for addi
 
 # System Architecture
 
+![Circuit Diagram](./rfiddetailed.png)
 ```text
                          RFID CARD
                              |
