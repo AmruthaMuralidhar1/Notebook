@@ -213,7 +213,7 @@ The camera can be used to take a picture when someone tries to access the door.
 START
   |
   v
-Initialize Raspberry Pi
+Initialize Microcontroler
   |
   v
 Initialize RFID Reader
@@ -272,7 +272,7 @@ Wait for Next Card
 
 | Sl. No. | Component | Specification | Qty | Unit Price | Total|
 |---:|---|---|---:|---:|---:|
-| 1 | Raspberry Pi 4 | 4 GB RAM Wi-Fi | 1 | 7,500 | 7,500 |
+| 1 | [Arduino Uno ](amazon.in/permanent-guarantee-Arduino-Uno/dp/B0044X2E5S)| R3 | 1 | 3,200 | 3,200 |
 | 2 | RFID Reader | MFRC522 13.56 MHz RFID Module | 2 | 150 | 300 |
 | 3 | RFID Cards | 13.56 MHz RFID Cards | 10 | 40 | 400 |
 | 4 | RFID Key Tags | 13.56 MHz RFID Key Tags | 5 | 30 | 150 |
@@ -289,6 +289,6 @@ Wait for Next Card
 | 15 | Enclosure | Electronics Project Enclosure | 1 | 800 | 800 |
 | 16 | Mounting Hardware | Screws, Nuts, Standoffs and Brackets | 1 | 200 | 200 |
 | 17 | USB Cable and Misc Wiring | Power and Data Cables | 1 | 250 | 250 |
-| | | | | **Total** | **₹18,340** |
+| | | | | **Total** | **₹14,040** |
 
 [View BOM.csv](./BOM.csv)
