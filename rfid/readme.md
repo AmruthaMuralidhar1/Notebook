@@ -2,9 +2,9 @@
 
 What is this?
 
-This is RFID based smart access control system using a Raspberry Pi.
+This is RFID based smart access control system using a Microcontroller.
 
-The idea is that instead of using a normal key, a user can scan an RFID card or key tag. The Raspberry Pi checks if the card is registered and then unlocks the door if it is allowed.
+The idea is that instead of using a normal key, a user can scan an RFID card or key tag. The Microcontroller checks if the card is registered and then unlocks the door if it is allowed.
 
 The system also has a touchscreen, camera, buzzer and LEDs.
 
@@ -15,7 +15,7 @@ RFID Card
 RFID Reader
     |
     v
-Raspberry Pi
+Microcontroller
     |
     v
 Check Card
@@ -30,7 +30,7 @@ Door   Access
 Why did I make this?
 Honestly I have holidays and want to make cool IoT stuff coz its fun. I wanted to learn RFID concepts and how it works so building this. RFID is used ine offices, hotels, attendance systems and access control systems, so I thought it would be cool to make my own small version.
 
-I also wanted to use a Raspberry Pi because it gives me more options for adding things like a touchscreen, camera, and Wi-Fi later.
+I also wanted to use a Microcontroller because it gives me more options for adding things like a touchscreen, camera, and Wi-Fi later.
 
 ---
 
@@ -38,7 +38,7 @@ I also wanted to use a Raspberry Pi because it gives me more options for adding 
 
 - Make an RFID based access control system.
 - Allow registered RFID cards to unlock the door.
-- Use Raspberry Pi as the main controller.
+- Use Microcontroller as the main controller.
 - Control an electronic door lock.
 - Show information on a touchscreen.
 - Give audio and LED feedback.
@@ -61,7 +61,7 @@ I also wanted to use a Raspberry Pi because it gives me more options for adding 
                              |
                              v
                     +------------------+
-                    |   Raspberry Pi   |
+                    |   Microcontroller   |
                     +--------+---------+
                              |
               +--------------+--------------+
@@ -85,9 +85,9 @@ I also wanted to use a Raspberry Pi because it gives me more options for adding 
 
 # How it works
 
-When an RFID card is scanned, the RFID reader reads its unique ID and sends it to the Raspberry Pi.
+When an RFID card is scanned, the RFID reader reads its unique ID and sends it to the Microcontroller.
 
-The Raspberry Pi checks the ID against the registered cards.
+The Microcontroller checks the ID against the registered cards.
 
 ### Authorized Card
 
@@ -98,7 +98,7 @@ RFID Card
 RFID Reader
     |
     v
-Raspberry Pi
+Microcontroller
     |
     v
 Card Authorized
@@ -122,7 +122,7 @@ RFID Card
 RFID Reader
     |
     v
-Raspberry Pi
+Microcontroller
     |
     v
 Card Not Authorized
@@ -138,9 +138,9 @@ Red LED + Buzzer
 
 # Components
 
-## Raspberry Pi 4
+## Microcontroller
 
-The Raspberry Pi is the main controller of the project.
+The Microcontroller is the main controller of the project.
 
 It handles the RFID reader, touchscreen, camera, LEDs, buzzer and door lock.
 
@@ -150,13 +150,13 @@ The RFID reader is used to read 13.56 MHz RFID cards and tags.
 
 ## RFID Cards and Key Tags
 
-Each card or tag has a unique ID. The Raspberry Pi checks this ID to see if the user is allowed to enter.
+Each card or tag has a unique ID. The Microcontroller checks this ID to see if the user is allowed to enter.
 
 ## Electronic Door Lock
 
 A 12V electronic solenoid lock is used to lock and unlock the door.
 
-A relay is used between the Raspberry Pi and the lock.
+A relay is used between the Microcontroller and the lock.
 
 ## Touchscreen
 
@@ -278,8 +278,8 @@ Wait for Next Card
 | 4 | RFID Key Tags | 13.56 MHz RFID Key Tags | 5 | 30 | 150 |
 | 5 | Electronic Door Lock | 12V Solenoid Lock | 1 | 1,000 | 1,000 |
 | 6 | 12V Power Supply | 12V 5A Adapter | 1 | 700 | 700 |
-| 7 | 3.5 inch Touchscreen Display | Touch Display for Raspberry Pi | 1 | 3,000 | 3,000 |
-| 8 | Raspberry Pi Camera Module | Camera Module | 1 | 2,500 | 2,500 |
+| 7 | 3.5 inch Touchscreen Display | Touch Display for Microcontroller | 1 | 3,000 | 3,000 |
+| 8 | Microcontroller Camera Module | Camera Module | 1 | 2,500 | 2,500 |
 | 9 | Relay Module | 5V Relay Module | 1 | 150 | 150 |
 | 10 | Buzzer | Active 5V Buzzer | 1 | 50 | 50 |
 | 11 | LEDs | Red and Green High Brightness LEDs | 4 | 10 | 40 |
