@@ -1,4 +1,7 @@
 ## Documentation
+- [Fire Detector and SMS alert README](./firedetector/readme.md)
+What is this?
+A fire detector based on IR sensor and sends SMS alerts via GSM module. Using Arduino nano for processing.
 
 - [Ultrasound based people counter and auto lighting System README](./ultrasound/readme.md)
 It is a People Counter using Arduino UNO and an HC-SR04 Ultrasonic Sensor. Whenever a person passes in front of the sensor, the Arduino detects the movement, increases the count, and turns on an LED as an indication. Could use this counting people entering a house or room or can also be used in bus or vehicles. it displays the number of count on your device. Because this sensing is using ultrasound sensor by connecting an Led we can even make automatic light system which turns on when there are people and turns off when there are none
