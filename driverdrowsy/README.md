@@ -5,7 +5,7 @@ Sleepy driving is one of the major reasons for road accidents around the world. 
 
 According to this research paper: https://doi.org/10.26719/emhj.22.055
 
-Most normal safety systems like airbags are mainly useful **after an accident has already started or happened**. My idea with this project was to try and detect the problem **before the accident happens** by checking if the driver is getting sleepy.
+Most normal safety systems like airbags are mainly useful **after an accident has already started or happened**. My idea with this project was to try and detect the problem before the accident happens by checking if the driver is getting sleepy.
 
 This project is a made using:
 
@@ -32,9 +32,9 @@ Both systems can be used separately or they can also be used together tho this w
 
 # Why did I make this?
 
-I originally started this project because I was trying to learn how to make a **face recognition app**.
+I originally started this project because I was trying to learn how to make a face recognition app.
 
-While I was working on that, I thought why not try making something that actually has some real world use. So I started looking into **drowsiness detection**.
+While I was working on that, I thought why not try making something that actually has some real world use. So I started looking into drowsiness detection.
 
 At first I was just detecting drowsiness in front of my laptop using the webcam. It worked, but obviously there isn't much use in knowing that someone sitting in front of a laptop is sleepy.
 
@@ -46,7 +46,7 @@ But then I thought about the cost and complexity.
 
 For this use case, the system doesn't necessarily need to be 100% accurate all the time. A few false alarms are okay if the main purpose is to warn the driver before they fall asleep.
 
-So I thought of making a much cheaper approach using **wearable glasses with IR sensors**.
+So I thought of making a much cheaper approach using wearable glasses with IR sensors.
 
 The glasses basically check the eyes and detect blinking. If the driver's eyes stay closed for longer than a certain threshold, the system assumes that the driver might be getting drowsy and gives an alert.
 
