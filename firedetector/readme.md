@@ -1,10 +1,13 @@
 ## Fire Detector and Moible SMS Alert System
 
-What is this?
+# What is this?
 A fire detector based on IR sensor and sends SMS alerts via GSM module. Using Arduino nano for processing.
 
-Why?
+# Why?
 I have an IR sensor and arduino nano so I am trying out all doable projects with these. But otherwise also it is quite useful system to build it can be used as a DIY home fire detector sensor 
+![Circuit Diagram](./firedetcot.png)
+![Circuit Connecting](./firedet1.png)
+
 
 Components and BOM
 | S.No. | Component Name        | Quantity | Unit Price (INR) | Total (INR) |
