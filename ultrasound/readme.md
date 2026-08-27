@@ -32,7 +32,7 @@ The complete BOM is also available here:
 | 4 | 220Ω Resistor | 220 Ohm Resistor | 1 | 2 | 2 |
 | 5 | Breadboard | Full Size Solderless Breadboard | 1 | 150 | 150 |
 | 6 | Jumper Wires | Male-Male Dupont Wires | 1 | 100 | 100 |
-| | | | | **Total** | **₹1887** |
+| | | | | **Total** | **₹1887** (20 USD) |
 
 # LiquidCrystal_I2C Library
     1 Need to install the LiquidCrystal_I2C library. To install the library these are the steps:
