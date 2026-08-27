@@ -19,10 +19,9 @@ The complete BOM is also available here:
 
 | Sl. No. | Component | Specification | Qty | Unit Price | Total |
 |---:|---|---|---:|---:|---:|
-| 1 | Arduino UNO | ATmega328P Development Board | 1 | 1550 | 1550 |
+| 1 | Arduino UNO | ATmega328P Development Board | 1 | 1770 | 1770 |
 | 2 | HC-SR04 Ultrasonic Sensor | Ultrasonic Distance Sensor | 1 | 80 | 80 |
 | 3 | LED | 5mm LED | 1 | 5 | 5 |
-| 4 | 220Ω Resistor | 220 Ohm Resistor | 1 | 2 | 2 |
-| 5 | Breadboard | Full Size Solderless Breadboard | 1 | 150 | 150 |
-| 6 | Jumper Wires | Male-Male Dupont Wires | 1 | 100 | 100 |
+| 4 | Breadboard | Full Size Solderless Breadboard | 1 | 150 | 150 |
+| 5 | Jumper Wires | Male-Male Dupont Wires | 1 | 100 | 100 |
 | | | | | **Total** | **₹1887** (20 USD) |
