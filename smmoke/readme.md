@@ -1,4 +1,4 @@
-## Smoke and Fire Detector System
+# Smoke and Fire Detector System
 
 # What is this?
 
