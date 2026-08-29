@@ -1,4 +1,11 @@
 ## Documentation
+
+- [Ultrasound based distanced detecting LED system](./distled/readme.md)
+  Arduino and ultrasound sensor based leds that change colors and blink based on the distance of an object. Can be used in parking places etc to visually indicate the closeness.
+
+- [Smoke and Fire detector system](./smmoke/readme.md)
+  Arduino and smoke and fire sensor system that buzzes when there is excess smoke and or fire detected
+  
 - [Fire Detector and SMS alert README](./firedetector/readme.md)
 What is this?
 A fire detector based on IR sensor and sends SMS alerts via GSM module. Using Arduino nano for processing.
